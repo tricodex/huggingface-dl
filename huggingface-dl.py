@@ -1,3 +1,5 @@
+# Copyright (c) 2024 tricodex
+
 from huggingface_hub import snapshot_download, login, HfApi
 import os
 import argparse
