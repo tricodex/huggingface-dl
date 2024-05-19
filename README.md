@@ -110,6 +110,6 @@ This script is inspired by the `huggingface_hub` library, which provides the cor
 
 ## License
 
-This script is licensed under the MIT License[LICENSE].
-```
+This script is licensed under the MIT [LICENSE](LICENSE).
+
 
