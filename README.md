@@ -2,6 +2,10 @@
 
 This script provides a convenient way to download Hugging Face models or datasets directly as a zip file, without the need for git. It also includes a progress bar to monitor the download. No need to worry about bigger files and git lfs.
 
+## Credits
+
+This script is inspired by the `huggingface_hub` library, which provides the core functionality for interacting with the Hugging Face Hub. Please refer to the [huggingface_hub repository](https://github.com/huggingface/huggingface_hub) for more details.
+
 ## Features
 
 - **Simplified Download:** Easily download Hugging Face repositories without Git.
@@ -98,18 +102,11 @@ os.makedirs(local_path, exist_ok=True)
 download_with_progress(repo_id, local_path, repo_type)
 
 ```
-
 ## Important Notes
 
 - **Token Security:** Keep your Hugging Face token confidential. Never share it publicly or commit it to version control.
 - **Rate Limits:** Hugging Face has rate limits on API usage. If you encounter issues, try using a valid token or wait for a while before retrying.
 
-## Credits
-
-This script is inspired by the `huggingface_hub` library, which provides the core functionality for interacting with the Hugging Face Hub. Please refer to the [huggingface_hub repository](https://github.com/huggingface/huggingface_hub) for more details.
-
 ## License
 
 This script is licensed under the MIT [LICENSE](LICENSE).
-
-
