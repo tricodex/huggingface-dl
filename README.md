@@ -36,13 +36,6 @@ This script provides a convenient way to download Hugging Face models or dataset
    ```bash
    python huggingface-dl.py HuggingFaceFW/fineweb --type dataset
    ```
-
-## Code
-
-```python
-# ... (your script code here)
-```
-
 ## Important Notes
 
 - **Token Security:** Keep your Hugging Face token confidential. Never share it publicly or commit it to version control.
